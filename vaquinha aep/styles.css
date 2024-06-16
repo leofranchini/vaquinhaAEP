@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+    background-image: url('https://media.istockphoto.com/id/648817898/pt/foto/life-is-amazing-when-you-have-the-greatest-friends-around.jpg?s=612x612&w=0&k=20&c=o2133SZ9NryILt6DUmAJN08erH7iZofK0swatR2kBCU='); /* Adicione a imagem de fundo aqui */
+    background-size: cover; /* Faz a imagem cobrir todo o fundo */
+    background-position: center; /* Centraliza a imagem */
+    background-attachment: fixed; /* Faz a imagem ficar fixa enquanto a página rola */
+}
+header {
+    background-color: #4CAF50;
+    
+    padding: 1em 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1em;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 2em;
+}
+
+.section {
+    margin: 2em auto;
+    padding: 2em;
+    width: 80%;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Borda esfumaçada */
+    border-radius: 10px;
+}
+
+.campaign {
+    border: 1px solid #ddd;
+    padding: 1em;
+    margin-bottom: 1em;
+    display: inline-block;
+    text-align: left;
+}
+
+.campaign h3 {
+    margin-top: 0;
+}
+
+footer {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
